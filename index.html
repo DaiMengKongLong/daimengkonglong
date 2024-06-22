@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/kxsw.png" />
+    <title>Dāiméngkǒnglóng⛰</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">⛰</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">😁关于</a></li>
+          <li><a href="#projects">💻项目</a></li>
+          <li><a href="#contact">🔗联系</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">⛰</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">😁关于</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">💻项目</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">🔗联系</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/logo.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Dāi méng kǒng lóng</h1>
+        <p class="section__text__p2">Personal blog</p>
+        <div id="socials-container">
+          <img
+            src="./assets/telegram.png"
+            alt="My Telegram Lite profile"
+            class="icon"
+            onclick="location.href='https://t.me/dmkljlq'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/DaiMengKongLong'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">😁关于</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/toux.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>🚀科学上网</h3>
+              <p>CloudFlare <br />部署白嫖科学上网</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>🌏macOS</h3>
+              <p>black macOS <br />安装black macOS相关</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              该博客不定期分享 CloudFlare部署 , black macOS安装 , DIY显示器 , 等好玩技术！
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Share project</p>
+      <h1 class="title">💻项目</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/kxsw.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">🚀科学上网</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/DaiMengKongLong/EDtunnel'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='./kxsw.html'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/macOS.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">🌏macOS</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/diy.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">🔧DIY</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">keep in touch</p>
+      <h1 class="title">🔗联系</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="github icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://github.com/DaiMengKongLong">GitHub</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/telegram.png"
+            alt="Telegram Lite icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://t.me/dmkljlq">Telegram Lite </a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:oukgds@outlook.com">oukgds@outlook.com</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">😁关于</a></li>
+            <li><a href="#experience">💀分享</a></li>
+            <li><a href="#projects">💻项目</a></li>
+            <li><a href="#contact">🔗联系</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>🦖Cute dinosaur &#169; 2024 JayOuy. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
